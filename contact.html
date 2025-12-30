@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="description" content="TravelExplorer – a responsive travel website built with HTML, CSS, and JavaScript.">
+<meta name="author" content="Inette Badenhorst">
+<title>Travel Explorer</title>
+<link rel="stylesheet" href="/css/styles.css" >
+</head>
+<body>
+<header class="navbar">
+  <h1 class="logo">TravelExplorer</h1>
+
+  <nav class="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="packages.html">Packages</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu">
+    ☰
+  </button>
+</header>
+<section class="hero-section">
+   <h2>Contact Us</h2>
+   <p class="hero_p">Have a question or need help planning your trip? Get in touch.</p>
+   <h3>Contact Information</h3>
+   <address class="address">
+  <p>Email: <a href="mailto:support@travelexplorer.com">support@travelexplorer.com</a></p>
+  <p>Phone: <a href="tel:+27000000000">+27 00 000 0000</a></p>
+  <p>Location: Global Travel Services</p>
+</address>
+</section>
+<main id="form">
+<section class="contact">
+  <h2>Contact Form</h2>
+  <p class="underline">Please fill in the form below and we’ll get back to you within 24 hours.</p>
+  <form id="contactForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" placeholder="Enter your full name" required>
+    <br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <br>
+    <label for="destination">Destination of Interest:</label>
+    <input type="text" id="destination" placeholder="e.g. Paris, Tokyo">
+    <br>
+    <label for="package" class="underline">Select a Package That Suits Your Needs:</label><br>
+    <input type="radio" name="package" value="Explorer" id="package">City Explorer Package<br> 
+    
+    <input type="radio" name="package" value="Adventure" >Adventure Seeker Package<br>
+    
+    <input type="radio" name="package" value="RelaxEscape" >Relax & Escape Package<br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" placeholder="Write your message here" required></textarea>
+    <br>
+    <button type="submit" class="sentbtn">Send Message</button>
+  </form>
+</section>
+</main>
+<br>
+<footer class="footer">
+<div class="footer-about">
+    <h4>About:</h4>
+    <p class="footer-text">TravelExplorer is a responsive travel website designed to help users discover destinations and explore travel options through a clean, intuitive, and engaging interface.</p>
+</div>
+<br>
+<h4>Quick Links:</h4>
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="destinations.html">Destinations</a>
+<a href="packages.html">Packages</a>
+<a href="contact.html">Contact</a>
+</div>
+<p class="demo">This project demonstrates core front-end development principles, including responsive layout design, UI consistency, and interactive functionality.</p>
+<p class="copyright">© 2025 TravelExplorer. All rights reserved.</p>
+</footer>
+
+
+<script src="js/javascript.js" defer></script>
+</body>
+</html>
