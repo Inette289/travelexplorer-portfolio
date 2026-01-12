@@ -52,3 +52,6 @@ Author
 **Inette Badenhorst**  
 Aspiring Front-End / Data Analyst  
 
+
+![travel_web](https://github.com/user-attachments/assets/93c009a2-664c-4632-9ddd-84471c87f4ff)
+
